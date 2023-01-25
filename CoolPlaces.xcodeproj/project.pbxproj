@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45FBB78F97CB9A5AFA07E8F0 /* Pods_CoolPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C49DEF019E99FF309297647 /* Pods_CoolPlaces.framework */; };
+		B60EA74E2980A37000A5CFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EA74D2980A37000A5CFF8 /* AppDelegate.swift */; };
+		B60EA7502980A37000A5CFF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EA74F2980A37000A5CFF8 /* SceneDelegate.swift */; };
+		B60EA7552980A37000A5CFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7532980A37000A5CFF8 /* Main.storyboard */; };
+		B60EA7572980A37200A5CFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7562980A37200A5CFF8 /* Assets.xcassets */; };
+		B60EA75A2980A37200A5CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7582980A37200A5CFF8 /* LaunchScreen.storyboard */; };
+		B68CDFD02980A9680013D82F /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CDFCF2980A9680013D82F /* MapsView.swift */; };
+		B6BD6CDA2980B381008F32E6 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD6CD92980B381008F32E6 /* NewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08DBCE2BC8C192F863207514 /* Pods-CoolPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPlaces.debug.xcconfig"; path = "Target Support Files/Pods-CoolPlaces/Pods-CoolPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		39D6C0BB2A5B82B001D41DBB /* Pods-CoolPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPlaces.release.xcconfig"; path = "Target Support Files/Pods-CoolPlaces/Pods-CoolPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		9C49DEF019E99FF309297647 /* Pods_CoolPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60EA74A2980A37000A5CFF8 /* CoolPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60EA74D2980A37000A5CFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B60EA74F2980A37000A5CFF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B60EA7542980A37000A5CFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60EA7562980A37200A5CFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60EA7592980A37200A5CFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60EA75B2980A37200A5CFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68CDFCF2980A9680013D82F /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		B6BD6CD92980B381008F32E6 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60EA7472980A37000A5CFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FBB78F97CB9A5AFA07E8F0 /* Pods_CoolPlaces.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EDAD60645A9CB0209E9E4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C49DEF019E99FF309297647 /* Pods_CoolPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A9D239909C414FD959F70F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08DBCE2BC8C192F863207514 /* Pods-CoolPlaces.debug.xcconfig */,
+				39D6C0BB2A5B82B001D41DBB /* Pods-CoolPlaces.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B60EA7412980A37000A5CFF8 = {
+			isa = PBXGroup;
+			children = (
+				B60EA74C2980A37000A5CFF8 /* CoolPlaces */,
+				B60EA74B2980A37000A5CFF8 /* Products */,
+				2A9D239909C414FD959F70F3 /* Pods */,
+				14EDAD60645A9CB0209E9E4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B60EA74B2980A37000A5CFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60EA74A2980A37000A5CFF8 /* CoolPlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60EA74C2980A37000A5CFF8 /* CoolPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				B60EA74D2980A37000A5CFF8 /* AppDelegate.swift */,
+				B60EA74F2980A37000A5CFF8 /* SceneDelegate.swift */,
+				B68CDFCE2980A94D0013D82F /* Views */,
+				B60EA7532980A37000A5CFF8 /* Main.storyboard */,
+				B60EA7562980A37200A5CFF8 /* Assets.xcassets */,
+				B60EA7582980A37200A5CFF8 /* LaunchScreen.storyboard */,
+				B60EA75B2980A37200A5CFF8 /* Info.plist */,
+			);
+			path = CoolPlaces;
+			sourceTree = "<group>";
+		};
+		B68CDFCE2980A94D0013D82F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B68CDFCF2980A9680013D82F /* MapsView.swift */,
+				B6BD6CD92980B381008F32E6 /* NewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60EA7492980A37000A5CFF8 /* CoolPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60EA75E2980A37200A5CFF8 /* Build configuration list for PBXNativeTarget "CoolPlaces" */;
+			buildPhases = (
+				B59C46ABBBBE3CA0F952E010 /* [CP] Check Pods Manifest.lock */,
+				B60EA7462980A37000A5CFF8 /* Sources */,
+				B60EA7472980A37000A5CFF8 /* Frameworks */,
+				B60EA7482980A37000A5CFF8 /* Resources */,
+				0F67D82CBCCE7636D55FF674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolPlaces;
+			productName = CoolPlaces;
+			productReference = B60EA74A2980A37000A5CFF8 /* CoolPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60EA7422980A37000A5CFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B60EA7492980A37000A5CFF8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B60EA7452980A37000A5CFF8 /* Build configuration list for PBXProject "CoolPlaces" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60EA7412980A37000A5CFF8;
+			productRefGroup = B60EA74B2980A37000A5CFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60EA7492980A37000A5CFF8 /* CoolPlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60EA7482980A37000A5CFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60EA75A2980A37200A5CFF8 /* LaunchScreen.storyboard in Resources */,
+				B60EA7572980A37200A5CFF8 /* Assets.xcassets in Resources */,
+				B60EA7552980A37000A5CFF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F67D82CBCCE7636D55FF674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolPlaces/Pods-CoolPlaces-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolPlaces/Pods-CoolPlaces-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoolPlaces/Pods-CoolPlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59C46ABBBBE3CA0F952E010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60EA7462980A37000A5CFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68CDFD02980A9680013D82F /* MapsView.swift in Sources */,
+				B6BD6CDA2980B381008F32E6 /* NewView.swift in Sources */,
+				B60EA74E2980A37000A5CFF8 /* AppDelegate.swift in Sources */,
+				B60EA7502980A37000A5CFF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B60EA7532980A37000A5CFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60EA7542980A37000A5CFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60EA7582980A37200A5CFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60EA7592980A37200A5CFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60EA75C2980A37200A5CFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B60EA75D2980A37200A5CFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60EA75F2980A37200A5CFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DBCE2BC8C192F863207514 /* Pods-CoolPlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M72TT8Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolPlaces/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaylendavis.CoolPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60EA7602980A37200A5CFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D6C0BB2A5B82B001D41DBB /* Pods-CoolPlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M72TT8Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolPlaces/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaylendavis.CoolPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60EA7452980A37000A5CFF8 /* Build configuration list for PBXProject "CoolPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60EA75C2980A37200A5CFF8 /* Debug */,
+				B60EA75D2980A37200A5CFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60EA75E2980A37200A5CFF8 /* Build configuration list for PBXNativeTarget "CoolPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60EA75F2980A37200A5CFF8 /* Debug */,
+				B60EA7602980A37200A5CFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60EA7422980A37000A5CFF8 /* Project object */;
+}
