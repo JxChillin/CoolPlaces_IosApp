@@ -1,2 +1,2 @@
 # CoolPlaces_IosApp
-Ios app to show fun places in Cary, NC
+Ios app to show fun places to visit around the US
