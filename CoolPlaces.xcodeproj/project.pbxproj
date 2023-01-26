@@ -13,9 +13,9 @@
 		B60EA7552980A37000A5CFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7532980A37000A5CFF8 /* Main.storyboard */; };
 		B60EA7572980A37200A5CFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7562980A37200A5CFF8 /* Assets.xcassets */; };
 		B60EA75A2980A37200A5CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60EA7582980A37200A5CFF8 /* LaunchScreen.storyboard */; };
+		B661BB0C2981CC5F001445F5 /* Vogue Regular 400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B661BB0B2981CC5F001445F5 /* Vogue Regular 400.ttf */; };
 		B68CDFD02980A9680013D82F /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CDFCF2980A9680013D82F /* MapsView.swift */; };
 		B6BD6CDA2980B381008F32E6 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD6CD92980B381008F32E6 /* NewView.swift */; };
-		B6BD6CDC2980E504008F32E6 /* NSMNS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BD6CDB2980E504008F32E6 /* NSMNS.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		B60EA7562980A37200A5CFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60EA7592980A37200A5CFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60EA75B2980A37200A5CFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B661BB0B2981CC5F001445F5 /* Vogue Regular 400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vogue Regular 400.ttf"; sourceTree = "<group>"; };
 		B68CDFCF2980A9680013D82F /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
 		B6BD6CD92980B381008F32E6 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
-		B6BD6CDB2980E504008F32E6 /* NSMNS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NSMNS.jpg; path = ../../../../Downloads/NSMNS.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		B60EA7412980A37000A5CFF8 = {
 			isa = PBXGroup;
 			children = (
+				B661BB0D2981CC66001445F5 /* Fonts */,
 				B60EA74C2980A37000A5CFF8 /* CoolPlaces */,
 				B60EA74B2980A37000A5CFF8 /* Products */,
 				2A9D239909C414FD959F70F3 /* Pods */,
@@ -89,11 +90,18 @@
 				B68CDFCE2980A94D0013D82F /* Views */,
 				B60EA7532980A37000A5CFF8 /* Main.storyboard */,
 				B60EA7562980A37200A5CFF8 /* Assets.xcassets */,
-				B6BD6CDB2980E504008F32E6 /* NSMNS.jpg */,
 				B60EA7582980A37200A5CFF8 /* LaunchScreen.storyboard */,
 				B60EA75B2980A37200A5CFF8 /* Info.plist */,
 			);
 			path = CoolPlaces;
+			sourceTree = "<group>";
+		};
+		B661BB0D2981CC66001445F5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B661BB0B2981CC5F001445F5 /* Vogue Regular 400.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		B68CDFCE2980A94D0013D82F /* Views */ = {
@@ -166,9 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60EA75A2980A37200A5CFF8 /* LaunchScreen.storyboard in Resources */,
+				B661BB0C2981CC5F001445F5 /* Vogue Regular 400.ttf in Resources */,
 				B60EA7572980A37200A5CFF8 /* Assets.xcassets in Resources */,
 				B60EA7552980A37000A5CFF8 /* Main.storyboard in Resources */,
-				B6BD6CDC2980E504008F32E6 /* NSMNS.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Vogue Regular 400.ttf">
+            <string>Vogue-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Maps View-->
         <scene sceneID="Vjr-yQ-7au">
@@ -31,40 +36,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cool Places" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzu-30-ph8">
+                                <rect key="frame" x="61" y="98" width="292" height="44.5"/>
+                                <fontDescription key="fontDescription" name="Vogue-Regular" family="Vogue" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxC-KY-7xL">
-                                <rect key="frame" x="120.5" y="422" width="173" height="52"/>
+                                <rect key="frame" x="120.5" y="322.5" width="173" height="52"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="K68-Ui-Yzk"/>
                                     <constraint firstAttribute="width" constant="173" id="SAc-bq-HlB"/>
                                 </constraints>
-                                <color key="tintColor" red="0.98823529409999999" green="0.63921568630000003" blue="0.066666666669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Go">
-                                    <color key="baseForegroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="filled" title="North Carolina">
+                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="foodButton:" destination="5Og-gi-w2W" eventType="touchUpInside" id="6Ps-Hs-68W"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cool Places" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzu-30-ph8">
-                                <rect key="frame" x="82" y="94" width="250" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fEK-ea-k2f"/>
-                        <color key="backgroundColor" red="0.078431372550000003" green="0.12941176469999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="xxC-KY-7xL" firstAttribute="centerX" secondItem="fAl-kA-W2m" secondAttribute="centerX" id="VuM-X3-wnf"/>
-                            <constraint firstItem="xxC-KY-7xL" firstAttribute="centerY" secondItem="fAl-kA-W2m" secondAttribute="centerY" id="gNe-OJ-PfW"/>
+                            <constraint firstItem="xxC-KY-7xL" firstAttribute="top" secondItem="Yzu-30-ph8" secondAttribute="bottom" constant="180" id="I2K-cL-XVv"/>
+                            <constraint firstItem="Yzu-30-ph8" firstAttribute="top" secondItem="fEK-ea-k2f" secondAttribute="top" constant="50" id="JNr-ka-y32"/>
+                            <constraint firstItem="xxC-KY-7xL" firstAttribute="centerX" secondItem="fAl-kA-W2m" secondAttribute="centerX" id="QeT-h6-f5R"/>
+                            <constraint firstItem="Yzu-30-ph8" firstAttribute="centerX" secondItem="fAl-kA-W2m" secondAttribute="centerX" id="UdE-6U-2Ww"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahh-cD-L7D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.351145038167935" y="-676.05633802816908"/>
+            <point key="canvasLocation" x="-34.782608695652179" y="-676.33928571428567"/>
         </scene>
     </scenes>
     <resources>

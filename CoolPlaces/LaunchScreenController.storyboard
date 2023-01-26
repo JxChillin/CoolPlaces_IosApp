@@ -12,29 +12,29 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="SMu-Vg-c8T">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cplogo" translatesAutoresizingMaskIntoConstraints="NO" id="wbZ-va-2gX">
-                                <rect key="frame" x="-3" y="236" width="380" height="380"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cplogo" translatesAutoresizingMaskIntoConstraints="NO" id="14B-r6-Ohi">
+                                <rect key="frame" x="6.6666666666666572" y="236" width="380" height="380"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="380" id="NrZ-bu-85x"/>
-                                    <constraint firstAttribute="height" constant="380" id="wG7-a0-Om2"/>
+                                    <constraint firstAttribute="height" constant="380" id="HaH-Gy-n0L"/>
+                                    <constraint firstAttribute="width" constant="380" id="rjZ-kS-Fwh"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="N5e-Ig-4JB"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="wbZ-va-2gX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="T3m-ou-oqd"/>
-                            <constraint firstItem="wbZ-va-2gX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-9.5" id="ydP-Ub-OTL"/>
+                            <constraint firstItem="14B-r6-Ohi" firstAttribute="centerY" secondItem="SMu-Vg-c8T" secondAttribute="centerY" id="P2S-mP-e2f"/>
+                            <constraint firstItem="14B-r6-Ohi" firstAttribute="centerX" secondItem="SMu-Vg-c8T" secondAttribute="centerX" id="PLV-kk-QJg"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+            <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
     <resources>
