@@ -7,4 +7,4 @@ This app does require the use of Xcode to  run the program.
 2. Open the Terminal and Download Cocoa Pods (Link Below)
 https://cocoapods.org/
 3. Now you will be able to open the project by typing into the Terminal 
-open CoolPlaces.xcworkspace
+"open CoolPlaces.xcworkspace"
